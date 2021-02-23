@@ -5,11 +5,14 @@
   "repository": "https://github.com/justo-marcella/NPS-Node-nlw",
   "author": "Marcella Justo <71738159+justo-marcella@users.noreply.github.com>",
   "license": "MIT",
-  "scripts":{
+  "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.2",
+    "typeorm": "^0.2.31"
   },
   "devDependencies": {
     "@types/express": "^4.17.11",
