@@ -3,7 +3,7 @@ import {app} from '../app';
 
 import createConnection from '../database';
 
-describe("Users",  () => {
+describe("users",  () => {
 
   beforeAll( async ()=>{
     const connection = await createConnection();
